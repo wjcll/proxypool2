@@ -5,7 +5,7 @@ module github.com/ssrlive/proxypool
 go 1.16
 
 require (
-	github.com/Dreamacro/clash v1.10.0
+	github.com/Dreamacro/clash v1.11.4
 	github.com/PuerkitoBio/goquery v1.5.1 // indirect
 	github.com/andybalholm/cascadia v1.2.0 // indirect
 	github.com/antchfx/htmlquery v1.2.3 // indirect
@@ -35,7 +35,8 @@ require (
 	google.golang.org/appengine v1.6.6 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776
+	gopkg.in/yaml.v2 v2.4.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/driver/postgres v1.3.5
 	gorm.io/gorm v1.23.4
 )
